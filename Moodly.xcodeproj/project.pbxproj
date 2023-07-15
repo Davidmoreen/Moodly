@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		532561412A6307E60081D794 /* MoodlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532561402A6307E60081D794 /* MoodlyApp.swift */; };
+		532561432A6307E60081D794 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532561422A6307E60081D794 /* ContentView.swift */; };
+		532561452A6307E60081D794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532561442A6307E60081D794 /* Assets.xcassets */; };
+		532561482A6307E60081D794 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532561472A6307E60081D794 /* Preview Assets.xcassets */; };
+		532561522A6307E70081D794 /* MoodlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532561512A6307E70081D794 /* MoodlyTests.swift */; };
+		5325615C2A6307E70081D794 /* MoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325615B2A6307E70081D794 /* MoodlyUITests.swift */; };
+		5325615E2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325615D2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5325614E2A6307E70081D794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532561352A6307E60081D794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5325613C2A6307E60081D794;
+			remoteInfo = Moodly;
+		};
+		532561582A6307E70081D794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532561352A6307E60081D794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5325613C2A6307E60081D794;
+			remoteInfo = Moodly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5325613D2A6307E60081D794 /* Moodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		532561402A6307E60081D794 /* MoodlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyApp.swift; sourceTree = "<group>"; };
+		532561422A6307E60081D794 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		532561442A6307E60081D794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		532561472A6307E60081D794 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5325614D2A6307E70081D794 /* MoodlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		532561512A6307E70081D794 /* MoodlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyTests.swift; sourceTree = "<group>"; };
+		532561572A6307E70081D794 /* MoodlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5325615B2A6307E70081D794 /* MoodlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyUITests.swift; sourceTree = "<group>"; };
+		5325615D2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5325613A2A6307E60081D794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5325614A2A6307E70081D794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532561542A6307E70081D794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		532561342A6307E60081D794 = {
+			isa = PBXGroup;
+			children = (
+				5325613F2A6307E60081D794 /* Moodly */,
+				532561502A6307E70081D794 /* MoodlyTests */,
+				5325615A2A6307E70081D794 /* MoodlyUITests */,
+				5325613E2A6307E60081D794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5325613E2A6307E60081D794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5325613D2A6307E60081D794 /* Moodly.app */,
+				5325614D2A6307E70081D794 /* MoodlyTests.xctest */,
+				532561572A6307E70081D794 /* MoodlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5325613F2A6307E60081D794 /* Moodly */ = {
+			isa = PBXGroup;
+			children = (
+				532561402A6307E60081D794 /* MoodlyApp.swift */,
+				532561422A6307E60081D794 /* ContentView.swift */,
+				532561442A6307E60081D794 /* Assets.xcassets */,
+				532561462A6307E60081D794 /* Preview Content */,
+			);
+			path = Moodly;
+			sourceTree = "<group>";
+		};
+		532561462A6307E60081D794 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				532561472A6307E60081D794 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		532561502A6307E70081D794 /* MoodlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				532561512A6307E70081D794 /* MoodlyTests.swift */,
+			);
+			path = MoodlyTests;
+			sourceTree = "<group>";
+		};
+		5325615A2A6307E70081D794 /* MoodlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5325615B2A6307E70081D794 /* MoodlyUITests.swift */,
+				5325615D2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift */,
+			);
+			path = MoodlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5325613C2A6307E60081D794 /* Moodly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532561612A6307E70081D794 /* Build configuration list for PBXNativeTarget "Moodly" */;
+			buildPhases = (
+				532561392A6307E60081D794 /* Sources */,
+				5325613A2A6307E60081D794 /* Frameworks */,
+				5325613B2A6307E60081D794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moodly;
+			productName = Moodly;
+			productReference = 5325613D2A6307E60081D794 /* Moodly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5325614C2A6307E70081D794 /* MoodlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532561642A6307E70081D794 /* Build configuration list for PBXNativeTarget "MoodlyTests" */;
+			buildPhases = (
+				532561492A6307E70081D794 /* Sources */,
+				5325614A2A6307E70081D794 /* Frameworks */,
+				5325614B2A6307E70081D794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5325614F2A6307E70081D794 /* PBXTargetDependency */,
+			);
+			name = MoodlyTests;
+			productName = MoodlyTests;
+			productReference = 5325614D2A6307E70081D794 /* MoodlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		532561562A6307E70081D794 /* MoodlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532561672A6307E70081D794 /* Build configuration list for PBXNativeTarget "MoodlyUITests" */;
+			buildPhases = (
+				532561532A6307E70081D794 /* Sources */,
+				532561542A6307E70081D794 /* Frameworks */,
+				532561552A6307E70081D794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				532561592A6307E70081D794 /* PBXTargetDependency */,
+			);
+			name = MoodlyUITests;
+			productName = MoodlyUITests;
+			productReference = 532561572A6307E70081D794 /* MoodlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		532561352A6307E60081D794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5325613C2A6307E60081D794 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5325614C2A6307E70081D794 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5325613C2A6307E60081D794;
+					};
+					532561562A6307E70081D794 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5325613C2A6307E60081D794;
+					};
+				};
+			};
+			buildConfigurationList = 532561382A6307E60081D794 /* Build configuration list for PBXProject "Moodly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 532561342A6307E60081D794;
+			productRefGroup = 5325613E2A6307E60081D794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5325613C2A6307E60081D794 /* Moodly */,
+				5325614C2A6307E70081D794 /* MoodlyTests */,
+				532561562A6307E70081D794 /* MoodlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5325613B2A6307E60081D794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532561482A6307E60081D794 /* Preview Assets.xcassets in Resources */,
+				532561452A6307E60081D794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5325614B2A6307E70081D794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532561552A6307E70081D794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		532561392A6307E60081D794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532561432A6307E60081D794 /* ContentView.swift in Sources */,
+				532561412A6307E60081D794 /* MoodlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532561492A6307E70081D794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532561522A6307E70081D794 /* MoodlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532561532A6307E70081D794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5325615E2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift in Sources */,
+				5325615C2A6307E70081D794 /* MoodlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5325614F2A6307E70081D794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5325613C2A6307E60081D794 /* Moodly */;
+			targetProxy = 5325614E2A6307E70081D794 /* PBXContainerItemProxy */;
+		};
+		532561592A6307E70081D794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5325613C2A6307E60081D794 /* Moodly */;
+			targetProxy = 532561582A6307E70081D794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5325615F2A6307E70081D794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		532561602A6307E70081D794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		532561622A6307E70081D794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moodly/Preview Content\"";
+				DEVELOPMENT_TEAM = CVPFK9S2M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmoreen.Moodly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		532561632A6307E70081D794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moodly/Preview Content\"";
+				DEVELOPMENT_TEAM = CVPFK9S2M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmoreen.Moodly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		532561652A6307E70081D794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVPFK9S2M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmoreen.MoodlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moodly";
+			};
+			name = Debug;
+		};
+		532561662A6307E70081D794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVPFK9S2M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmoreen.MoodlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moodly";
+			};
+			name = Release;
+		};
+		532561682A6307E70081D794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVPFK9S2M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmoreen.MoodlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moodly;
+			};
+			name = Debug;
+		};
+		532561692A6307E70081D794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVPFK9S2M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidmoreen.MoodlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moodly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		532561382A6307E60081D794 /* Build configuration list for PBXProject "Moodly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5325615F2A6307E70081D794 /* Debug */,
+				532561602A6307E70081D794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532561612A6307E70081D794 /* Build configuration list for PBXNativeTarget "Moodly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532561622A6307E70081D794 /* Debug */,
+				532561632A6307E70081D794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532561642A6307E70081D794 /* Build configuration list for PBXNativeTarget "MoodlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532561652A6307E70081D794 /* Debug */,
+				532561662A6307E70081D794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532561672A6307E70081D794 /* Build configuration list for PBXNativeTarget "MoodlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532561682A6307E70081D794 /* Debug */,
+				532561692A6307E70081D794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 532561352A6307E60081D794 /* Project object */;
+}
