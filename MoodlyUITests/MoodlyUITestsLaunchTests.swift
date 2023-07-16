@@ -1,10 +1,3 @@
-//
-//  MoodlyUITestsLaunchTests.swift
-//  MoodlyUITests
-//
-//  Created by David and Cristina on 7/15/23.
-//
-
 import XCTest
 
 final class MoodlyUITestsLaunchTests: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  MoodlyTests.swift
-//  MoodlyTests
-//
-//  Created by David and Cristina on 7/15/23.
-//
-
 import XCTest
 @testable import Moodly
 

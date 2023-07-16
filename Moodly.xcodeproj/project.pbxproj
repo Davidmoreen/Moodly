@@ -14,6 +14,12 @@
 		532561522A6307E70081D794 /* MoodlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532561512A6307E70081D794 /* MoodlyTests.swift */; };
 		5325615C2A6307E70081D794 /* MoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325615B2A6307E70081D794 /* MoodlyUITests.swift */; };
 		5325615E2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325615D2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift */; };
+		5325616D2A63080E0081D794 /* MoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325616C2A63080E0081D794 /* MoodModel.swift */; };
+		5325616F2A6308560081D794 /* MoodsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325616E2A6308560081D794 /* MoodsList.swift */; };
+		532561712A63085E0081D794 /* AddMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532561702A63085E0081D794 /* AddMood.swift */; };
+		532561742A63116D0081D794 /* MoodsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532561732A63116D0081D794 /* MoodsRepository.swift */; };
+		532561772A6312130081D794 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 532561762A6312130081D794 /* RealmSwift */; };
+		5325617A2A6317430081D794 /* SwiftUISnackbar in Frameworks */ = {isa = PBXBuildFile; productRef = 532561792A6317430081D794 /* SwiftUISnackbar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,10 @@
 		532561572A6307E70081D794 /* MoodlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5325615B2A6307E70081D794 /* MoodlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyUITests.swift; sourceTree = "<group>"; };
 		5325615D2A6307E70081D794 /* MoodlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5325616C2A63080E0081D794 /* MoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodModel.swift; sourceTree = "<group>"; };
+		5325616E2A6308560081D794 /* MoodsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsList.swift; sourceTree = "<group>"; };
+		532561702A63085E0081D794 /* AddMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMood.swift; sourceTree = "<group>"; };
+		532561732A63116D0081D794 /* MoodsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532561772A6312130081D794 /* RealmSwift in Frameworks */,
+				5325617A2A6317430081D794 /* SwiftUISnackbar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +106,9 @@
 		5325613F2A6307E60081D794 /* Moodly */ = {
 			isa = PBXGroup;
 			children = (
+				532561722A63115F0081D794 /* Repositories */,
+				5325616B2A6307FF0081D794 /* Models */,
+				5325616A2A6307F80081D794 /* Screens */,
 				532561402A6307E60081D794 /* MoodlyApp.swift */,
 				532561422A6307E60081D794 /* ContentView.swift */,
 				532561442A6307E60081D794 /* Assets.xcassets */,
@@ -127,6 +142,31 @@
 			path = MoodlyUITests;
 			sourceTree = "<group>";
 		};
+		5325616A2A6307F80081D794 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5325616E2A6308560081D794 /* MoodsList.swift */,
+				532561702A63085E0081D794 /* AddMood.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5325616B2A6307FF0081D794 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5325616C2A63080E0081D794 /* MoodModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		532561722A63115F0081D794 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				532561732A63116D0081D794 /* MoodsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +183,10 @@
 			dependencies = (
 			);
 			name = Moodly;
+			packageProductDependencies = (
+				532561762A6312130081D794 /* RealmSwift */,
+				532561792A6317430081D794 /* SwiftUISnackbar */,
+			);
 			productName = Moodly;
 			productReference = 5325613D2A6307E60081D794 /* Moodly.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +259,10 @@
 				Base,
 			);
 			mainGroup = 532561342A6307E60081D794;
+			packageReferences = (
+				532561752A6312130081D794 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				532561782A6317430081D794 /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */,
+			);
 			productRefGroup = 5325613E2A6307E60081D794 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5325616F2A6308560081D794 /* MoodsList.swift in Sources */,
+				5325616D2A63080E0081D794 /* MoodModel.swift in Sources */,
 				532561432A6307E60081D794 /* ContentView.swift in Sources */,
+				532561712A63085E0081D794 /* AddMood.swift in Sources */,
+				532561742A63116D0081D794 /* MoodsRepository.swift in Sources */,
 				532561412A6307E60081D794 /* MoodlyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +635,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		532561752A6312130081D794 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.41.0;
+			};
+		};
+		532561782A6317430081D794 /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zaniluca/SwiftUISnackbar";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		532561762A6312130081D794 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 532561752A6312130081D794 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		532561792A6317430081D794 /* SwiftUISnackbar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 532561782A6317430081D794 /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */;
+			productName = SwiftUISnackbar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 532561352A6307E60081D794 /* Project object */;
 }
